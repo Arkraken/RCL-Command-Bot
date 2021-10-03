@@ -1,0 +1,20 @@
+-Prat 1-
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+await lib.discord.channels['@0.0.6'].messages.create({
+  channel_id: context.params.event.channel_id,
+  content: `<@!${891698536603852800}> just triggered the **/register** command!`,
+});
+
+// Write some custom code here
+
+const ib = require('lib')({
+  token: ODcxMTA0MzQ3NTc1MDUwMjgx.YQWdJA.SSRhS4flvo5DONnZuAuvJ0Ke - _c,
+});
+
+await lib.discord.commands['@0.0.6'].create({
+  name: 'RCL Command',
+  description: 'Registers player for matches',
+  options: [],
+});
+string;
